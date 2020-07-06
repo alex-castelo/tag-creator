@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="app.js"></script>
+    <title>AdmanMedia Tools</title>
+</head>
+
+<body>
+    <div class="center-content">
+        <header>
+            <h1>AdmanMedia Tools</h1>
+        </header>
+        <div class="main-section">
+
+            <h2>Tag Generator</h2>
+            <p class="description">
+                ¿Necesitas un tag para un publisher? Introduce el <span><strong>placement id</strong></span> a
+                continuación.
+            </p>
+            <form>
+                <div class="form-group">
+                    <label for="placement_id">Placement ID:</label>
+                </div>
+                <div class="form-group">
+                    <input type="number" id="placement_id">
+                </div>
+                <div class="form-group">
+                    <button type="button">Generate</button>
+                </div>
+            </form>
+
+            <div id="result">
+                <p>Aquí tienes tu tag</p>
+                <p id="final-tag"></p>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
