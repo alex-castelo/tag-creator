@@ -2,6 +2,14 @@ body {
     background-color: white;
 }
 
+h1 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.4em;
+}
+
 .center-content {
     text-align: center;
     display: flex;
@@ -10,7 +18,11 @@ body {
 }
 
 header {
-    margin-top: 20vh;
+    margin-top: 10vh;
+}
+
+.form-group {
+    padding: 5px;
 }
 
 .main-section {
@@ -18,7 +30,14 @@ header {
     margin: auto;
     border: rgb(196, 196, 196) 1px solid;
     border-radius: 5px;
-    width: 80%;
+    width: 60%;
     max-width: 1000px;
     min-height: 200px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(212, 197, 212, 1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(212, 197, 212, 1);
+    box-shadow: 10px 10px 5px 0px rgba(212, 197, 212, 1);
+}
+
+#result {
+    min-height: 70px;
 }
