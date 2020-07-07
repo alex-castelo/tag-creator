@@ -8,7 +8,7 @@ color red: #DC4405
 */
 
 body {
-    background-color: white;
+    background-color: whitesmoke;
     font-family: 'Mukta', sans-serif;
 }
 
@@ -43,7 +43,6 @@ header {
 }
 
 #formulario {
-    margin-bottom: 32px;
     font-size: 1.4em;
 }
 
@@ -55,7 +54,10 @@ header {
 
 button {
     height: 32px;
-    border-radius: 0.1px;
+    width: 128px;
+    font-family: 'Mukta', sans-serif;
+    margin-top: 16px;
+    font-size: large;
 }
 
 .main-section {
