@@ -1,14 +1,11 @@
-function tag(id) {
-    return "<script src=\"https://pub.admanmedia.com/go?id="+ id +"\" async=\"\"></script>"
+// funcion para pintar el tag id
+function tag() {
+    var placementId = document.getElementById('placement_id').value;
+    return "<script src=\"https://pub.admanmedia.com/go?id=" + placementId + "\" async=\"\"></script>"
 }
 
-var x = $("placement_id").val();
-console.log(x);
 
-function printTag(id){
-    document.getElementById('final-tag').innerHTML = tag(id);
+function imprimirTag() {
+    document.getElementById('final-tag').innerText = tag();
 }
 
-document.getElementById('submit').onclick = function () {
-    tag();
-}
