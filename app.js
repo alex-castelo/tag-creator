@@ -1,11 +1,12 @@
-// funcion para pintar el tag id
-function tag() {
-    var placementId = document.getElementById('placement_id').value;
-    return "<script src=\"https://pub.admanmedia.com/go?id=" + placementId + "\" async=\"\"></script>"
+// funcion para conseguir el tag id
+function getPlacementId() {
+    return document.getElementById('placement_id').value;
 }
 
 
-function imprimirTag() {
-    document.getElementById('final-tag').innerText = tag();
+function getTag() {
+    const placementId = getPlacementId()
+    const finalTag = "<script src=\"https://pub.admanmedia.com/go?id=" + placementId + "\" async=\"\"></script>"
+    document.getElementById('final-tag').innerText = finalTag
 }
 
