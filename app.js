@@ -10,5 +10,3 @@ function getTag() {
     document.getElementById('final-tag').innerText = finalTag
 }
 
-// nureva instancia del Objeto ClipboardJS
-new ClipboardJS('.btn');
